@@ -1,0 +1,139 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.container-home {
+  background-color: #faf2d3;
+  height: calc(100vh - 100px);
+  padding-top: 100px;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 75px;
+  font-family: "Caveat", cursive;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Pacifico", cursive;
+  color: #3085c3;
+}
+.web-dev-p {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: "Caveat", cursive;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Roboto Slab", serif;
+  color: #5cd2e6;
+}
+.normal-p,
+.normal-p-left-align {
+  font-size: 20px;
+  color: rgb(104, 105, 106);
+  letter-spacing: 1.5px;
+  line-height: 200%;
+}
+.normal-p-left-align {
+  text-align: left;
+  /* padding-top: 30px; */
+}
+h2 {
+  color: #3085c3;
+  font-size: 50px;
+}
+
+.img-cloud {
+  height: 98px;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+.img-tree {
+  position: absolute;
+  bottom: 0;
+  height: 200px;
+  left: 30%;
+}
+.skill-img {
+  height: 200px;
+  width: 300px;
+  border-radius: 50%;
+  /* margin-top: 100px; */
+}
+.container-profile {
+  height: 100vh;
+}
+.container-outer {
+  height: 100vh;
+  background-color: #faf2d3;
+}
+.container-skills {
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 300px 500px;
+  grid-gap: 50px;
+  padding-left: 20%;
+  padding-right: auto;
+  padding-top: 100px;
+}
+.container-contact {
+  height: 80vh;
+}
+.prof-image {
+  display: block;
+  margin-top: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  border-radius: 50%;
+}
+.h2-contact {
+  padding-top: 100px;
+}
+
+.container-footer {
+  background-color: #5cd2e6;
+  height: 20vh;
+  padding: 30px 0 30px;
+}
+button {
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  font-family: "Caveat", cursive;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Pacifico", cursive;
+  border: none;
+  color: #ffffff;
+  background-color: #3085c3;
+}
+button:hover {
+  color: #3085c3;
+  background-color: #f4e869;
+}
+.footer-link,
+.copyright {
+  font-family: "Caveat", cursive;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Roboto Slab", serif;
+  font-size: 17px;
+  color: #faf2d3;
+  text-decoration: none;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.footer-link:hover {
+  color: #060601;
+}
+.copyright {
+  color: black;
+  padding-top: 15px;
+}
